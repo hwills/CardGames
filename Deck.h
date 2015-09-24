@@ -30,4 +30,5 @@ public:
 	friend int operator<< (Deck &, Deck &);
 };
 
+bool poker_rank(const Hand & h1, const Hand & h2);
 #endif

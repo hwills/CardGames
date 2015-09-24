@@ -18,7 +18,7 @@ const int programNameIndex = 0;
 const int gameNameIndex = 1;
 const int firstPlayerIndex = 2;
 const int req_players = 2;
-const enum errors { noError, fileOpenError, cardReadError, usageError, shuffleUsageError, wrongArgsError, 
+enum errors { noError, fileOpenError, cardReadError, usageError, shuffleUsageError, wrongArgsError, 
 					noArgsError, manyArgsError, not_enough_cards, index_out_of_bounds, instance_not_available, 
 					unknown_game, game_already_started, no_game_in_progress, already_playing};
 const int numSuits = 4;
